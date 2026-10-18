@@ -1,0 +1,7 @@
+shadow prebuilt repo: sqlite (target)
+  upstream: external/sqlite
+  api-level: 34 (branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.sqlite.apex
+  dev-src: extracted extractive dual-slice payload (target/lib64, host/lib64, include) + root Android.bp
+  modules: libsqlite, libsqlite_static_noicu, libsqlite_static_minimal, libsqlite3_android, libsqlite3_android_noicu, sqlite3
+  date: 2026-10-16
