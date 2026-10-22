@@ -179,3 +179,14 @@ cc_prebuilt_binary {
         },
     },
 }
+
+cc_library_static {
+    name: "sqlite_ext_percentile",
+    srcs: [
+        "ext/misc/percentile.c",
+    ],
+    defaults: ["sqlite-defaults"],
+    host_supported: true,
+    local_include_dirs: ["include"],
+    export_include_dirs: ["include"],
+}
